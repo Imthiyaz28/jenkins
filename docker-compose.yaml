@@ -1,0 +1,7 @@
+version: 3
+services:
+  jenkins:
+    container_name: Jenkins
+    image: jenkins-ansible
+    build: 
+      context: jenkins-ansible
