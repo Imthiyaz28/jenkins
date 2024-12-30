@@ -8,3 +8,6 @@ Note:
 
 The build section with context: jenkins-ansible implies that you have a directory named jenkins-ansible containing files or scripts that are used to customize the Jenkins image during the build process.
 The networks section only declares the network name. You would need to define other services within the same Docker Compose file that also use the net network for them to communicate 
+
+# Adding the docker-compose file to create a service has remote_host and to create a container and image has remote-image 
+We are creating remote-host with base ubnutu base image
